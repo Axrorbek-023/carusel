@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.wrapper{
+    margin-top: 900px;
+    width: 1200px;
+    height: 800px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.corusel__list{
+    display: flex;
+    /* width: 6000px; */
+    height: 800px;
+    transition: all ease 0.5s;
+}
+.corusel__item{
+    /* width: 1200px;
+    height: 800px; */
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.btn{
+    text-align: center;
+}
+button{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+    background-color: rgb(41, 41, 231);
+    border: none;
+    color: white;
+    margin-left: 30px;
+    border-radius: 50%;
+}
